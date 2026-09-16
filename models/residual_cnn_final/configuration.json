@@ -1,0 +1,25 @@
+{
+  "candidate_id": "cnn_residual",
+  "model_name": "Residual CNN",
+  "configuration": {
+    "batch_size": 256,
+    "channels": [
+      32,
+      64,
+      128,
+      128
+    ],
+    "dropout": 0.25,
+    "epochs": 80,
+    "kernels": [
+      7,
+      5,
+      5,
+      3
+    ],
+    "kind": "residual_cnn",
+    "lr": 0.0003,
+    "patience": 15,
+    "weight_decay": 0.0001
+  }
+}

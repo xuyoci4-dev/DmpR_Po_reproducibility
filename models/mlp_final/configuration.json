@@ -1,0 +1,19 @@
+{
+  "candidate_id": "mlp880_d25",
+  "model_name": "MLP-880",
+  "configuration": {
+    "batch_size": 256,
+    "dropout": 0.25,
+    "epochs": 80,
+    "hidden": [
+      512,
+      256,
+      128,
+      64
+    ],
+    "kind": "torch_mlp",
+    "lr": 0.0003,
+    "patience": 15,
+    "weight_decay": 0.0001
+  }
+}
